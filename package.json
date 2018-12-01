@@ -1,0 +1,19 @@
+{
+  "name": "sportsscrapper",
+  "version": "1.0.0",
+  "description": "Scrapper for sports.fr calendar pages",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js"
+  },
+  "author": "Angusyg",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-tableparser": "^1.0.1",
+    "exceljs": "^1.6.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
